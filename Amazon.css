@@ -1,0 +1,197 @@
+*{font-family: Arial, Helvetica, sans-serif}
+.logo{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    width: 103px;
+    height: 31px;
+    margin: auto;
+    padding: 25px;
+    
+}
+
+.Container{
+    display:flex;
+    justify-content: center;
+    border: lightgray;
+    border-width: 2px;
+    border-style:solid;
+    flex-direction:column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:25px;
+    padding-right: 25px;
+    width: 350px;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+    
+
+}
+
+.SignIn{
+    display:flex;
+    font-size: 32px;
+    margin-bottom: 15px;
+
+}
+.email{
+    display:flex;
+    font-size: 12px;
+    width: 300px;
+
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-bottom:0px;
+    font-size: 12px;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: px;
+    
+}
+input[type=text] {
+    width: 300px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    height: 15px;
+    
+}
+.submit {
+    background-color: rgb(226, 193, 131);
+    width: 308px;
+    margin-top: 18px;
+    font-size: 12px;
+    height: 26px;
+
+
+
+
+}
+
+.cyaa {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    background-color: lightgray;
+    border-color: rgb(182, 180, 180);
+    border-width: 2px;
+    height: 30px;
+    margin: auto;
+    width: 325px;
+    
+   
+
+
+
+}
+
+
+.line-2l {
+
+    height: 1px;
+    background: gray;
+    
+    justify-content: center;
+    width: 150px;
+    margin:auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 5px;
+    align-items: center;  
+    
+}
+
+.line-2 {
+
+height: 1px;
+background: gray;
+
+justify-content: center;
+width: 150px;
+margin:auto;
+margin-top: 15px;
+margin-bottom: 30px;
+align-items: center;  
+margin-left: 5px;
+}
+
+.linetext{
+text-align: center;
+background-color: white;
+width: auto;
+justify-content: center;
+
+font-size: 16px;
+align-items: center;
+margin-top: 5px;
+color: gray;
+
+}
+
+.line-1 {
+height: 1px;
+background: gray;
+margin-top: 50px;
+margin-bottom: 25px;
+}
+.rowrow {
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
+font-size: 13px;
+width: 250px;
+
+
+}
+
+.copyright {
+display:flex;
+justify-content: center;
+font-size: 10px;
+margin-top: 14px;
+
+
+
+}
+
+.flexboxrow {
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+
+
+}
+p1 {
+    font-size: 10px;
+    margin-left: 20px;
+    
+}
+p {
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+
+
+p::before{
+content: url(Arrow.PNG)
+
+
+}
+
+
+
+
+
+
+
+h1 {
+    color: red;
+}
