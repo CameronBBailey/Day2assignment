@@ -60,6 +60,13 @@ input[type=text] {
     height: 15px;
     
 }
+input[type=password] {
+    width: 300px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    height: 15px;
+    
+}
 .submit {
     background-color: rgb(226, 193, 131);
     width: 308px;
